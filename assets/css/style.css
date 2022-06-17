@@ -1079,3 +1079,33 @@ margin-bottom: 80px;
 .about-page {
   padding-top: 30px;
 }
+
+.certificates .follow.footer-list li img {
+  margin: 0;
+  margin-right: 10px;
+}
+.certificates .follow.footer-list li {
+  display: block;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.certificates .follow.footer-list li {
+  font-size: 14px;
+text-transform: capitalize;
+letter-spacing: 1px;
+cursor: pointer;
+}
+.footer-textclass {
+  color: #dddbdb;
+  font-size: 14px;
+  margin-top: 36px;
+  line-height: 27px;
+  padding-right: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .footer-textclass {
+  margin-top: 10px;
+}
+}
