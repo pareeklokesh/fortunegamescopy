@@ -1143,10 +1143,7 @@ left: 0;
 bottom: 0px;
 }
 
-@font-face {
-  src: url('../font/Aileron-Bold.otf');
-  font-family: Aileron-Bold;
-}
+
 
 @media (max-width: 767px) {
   .footer-textclass {
@@ -1167,6 +1164,12 @@ bottom: 0px;
 }
 .m-l40 {
   margin-left: 15px;
+}
+.section-title span {
+  font-size: 20px;
+}
+.section-title strong {
+  font-size: 38px;
 }
 
 }
