@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Osm Rummy</title>
+	<title>Fortunegames</title>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
 
@@ -203,6 +203,20 @@
 	</div>
 </div>
 
+<script>
+    $(document).bind("contextmenu",function(e){
+  return false;
+    });
+    
+  </script> 
+<script>
+    document.onkeydown = function(e) {
+    if (e.ctrlKey &&
+        (e.keyCode === 85 )) {
+        return false;
+    }
+};
+</script>
 
 </body>
 </html>
