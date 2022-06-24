@@ -1114,4 +1114,21 @@ cursor: pointer;
   .footer-textclass {
   margin-top: 10px;
 }
+.icon-bx-wraper.bx-style-1, .icon-bx-wraper.bx-style-2 {
+  min-height: inherit !important;
+}
+.icon-content .dez-tilte {
+  font-size: 18px;
+}
+.icon-bx-sm {
+  width: 60px;
+  height: 60px;
+}
+.p-l40 {
+  padding-left: 20px;
+}
+.m-l40 {
+  margin-left: 15px;
+}
+
 }
