@@ -2,6 +2,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+body {
+  -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
 .header {
   background: linear-gradient(180deg,#224390,#05112d);
   padding-top: 15px;
